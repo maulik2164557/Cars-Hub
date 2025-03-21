@@ -1,0 +1,158 @@
+/* Reset some basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  background: rgba(0, 0, 0, 0.5) url('https://www.volkswagenmadras.com/assets/front/images/virtus/virtus-gt-edge-ambient-lighting.webp');
+
+  color: #333;
+}
+/* 
+header {
+  background-color: #007bff;
+  padding: 20px 0;
+} */
+
+/* header .main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+} */
+
+nav{
+  height: 90px;
+  border-bottom-color: aliceblue;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap ;
+  background-color: #0000009e;
+}
+
+#logo{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 170%;
+  transform: rotate(360deg);
+  color: white;
+}
+
+nav a{
+  margin: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 110%;
+  color: white;
+  transition: 2s;
+  position: relative;
+}
+
+nav a:hover{
+  transform: scale(1.2);
+  transition: 1s;
+  color: rgba(235, 252, 78, 0.879);
+  transform: translate3d(-5px);
+}
+
+#info1{
+  margin-left: 46%;
+}
+
+#info2{
+  margin-left: 1%;
+}
+
+/* Contact Form Styling */
+.contact-container {
+  max-width: 560px;
+  margin: 40px auto;
+  margin-top: 10px;
+  padding: 20px;
+  background: transparent;
+  background:rgba(18, 6, 6, 0.627);
+  /* background-color: rgba(46, 42, 42, 0.574); */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h2 {
+  font-size: 18px;
+  margin-left: 15px;
+  margin-bottom: 0px;
+  width: 85%;
+  color: #fff;
+}
+
+.contact-container h3 {
+  font-size: 18px;
+  margin-left: 90px;
+  margin-bottom: 15px;
+  width: 85%;
+  /* color: #fff; */
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group input, 
+.form-group select, 
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  /* background-color: #f9f9f9; */
+}
+
+.form-group textarea {
+  size: 50px;
+  resize: vertical;
+}
+
+.form-group input:focus, 
+.form-group select:focus, 
+.form-group textarea:focus {
+  outline: none;
+  border-color: #007bff;
+  background-color: #fff;
+}
+
+.submit-btn {
+  padding: 12px 20px;
+  font-size: 18px;
+  color: #fff;
+  background-color: rgba(65, 62, 230, 0.779);
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+
+.form-group input,
+.form-group select,
+.form-group textarea{
+  width: 75%;
+  margin: 10px;
+  margin-top: 18px;
+  margin-left: 55px;
+  color: #fff;
+  padding: 13px 18px;
+  background: transparent;
+  border-bottom: 1px solid rgb(54, 49, 213);
+}
